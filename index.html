@@ -1,0 +1,257 @@
+<!-- index.html - Simple single-file portfolio for Abhishek Sarathe -->
+<!doctype html> <!-- declare HTML5 document -->
+<html lang="en"> <!-- root element with language -->
+
+<head> <!-- document head: metadata and styles -->
+ <meta charset="utf-8"> <!-- character encoding -->
+ <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- responsive viewport -->
+ <title>Dev Sen — Portfolio</title> <!-- browser title -->
+ <meta name="description" content="Portfolio of Abhishek Sarathe - Full Stack Developer"> <!-- SEO description -->
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="container"> <!-- page container -->
+  <header> <!-- top header with brand and nav -->
+   <a class="brand" href="#"> <!-- brand link -->
+    <div class="avatar">DKS</div> <!-- initials avatar -->
+    <div>
+     <div style="font-weight:700">Dev Kumar Sen</div> <!-- name -->
+     <div style="font-size:13px; color:#6b7280">Full Stack Developer</div> <!-- subtitle -->
+    </div>
+   </a>
+
+   <nav> <!-- simple nav links -->
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+   </nav>
+  </header>
+
+  <main> <!-- main content -->
+   <section class="hero"> <!-- hero section -->
+    <div> <!-- left: intro -->
+     <h1>Hi, I’m Dev , <span style="color:#06b6d4">Dev</span></h1> <!-- heading -->
+     <p>A Full Stack Web Developer, Backend Engineer, and Cybersecurity Specialist passionate
+    about building secure, scalable, and high-performance web applications. With expertise in the MERN stack (MongoDB,
+    Express, React, Node.js), I focus on crafting efficient backend architectures, integrating APIs, and deploying
+    solutions on AWS and Google Cloud using modern DevOps practices.
+    
+    
+</p> <!-- short intro -->
+     <div class="buttons">
+      <a class="btn btn-primary" href="#projects">View Projects</a> <!-- CTA primary -->
+      <a class="btn btn-outline" href="#contact">Get in touch</a> <!-- CTA outline -->
+     </div>
+    </div>
+
+    <aside class="card"> <!-- right: photo & contact card -->
+     <img src="1000444653.png" alt="" class="photo"> <!-- placeholder for photo -->
+     <div class="role">Full Stack Developer</div> <!-- role text -->
+     <div style="color:#475569; font-size:14px; margin-bottom:10px">Based in India · Open to opportunities</div>
+     <!-- location -->
+     <div style="display:flex; justify-content:center; gap:8px">
+      <a class="btn btn-outline" href="mailto: devksen.personal@gmail.com">Email</a> <!-- email link -->
+      <a class="btn btn-outline" href="https://github.com/DevSen101" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <!-- github link -->
+     </div>
+    </aside>
+   </section>
+
+   <section id="about"> <!-- about section -->
+    <h2 class="section-title">About</h2>
+    <div class="about">
+     <p>I'm a full-stack developer focused on building clean interfaces and robust backends. I work with JavaScript,
+      Node.js, and modern frontend tools. I care about performance, security and readable code.</p>
+     <p style="margin-top:8px"></p>
+    </div>
+   </section>
+
+   <section id="projects"> <!-- projects section -->
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="grid">
+     <article class="project"> <!-- project 1 -->
+      <h3>Nasa-Mission-Control</h3>
+      <p>Developed a full-featured NASA REST API that aggregates and serves real-time SpaceX mission data and NASA’s open-source
+      CSV datasets through a unified backend system. The API fetches live launch data, stores it in MongoDB, and provides
+      structured endpoints for analytics, mission tracking, and data visualization — fully deployed on AWS for high
+      availability.</p>
+      <a href="https://github.com/DevSen101/NASA-Mission-Control" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+     </article>
+
+     <article class="project"> <!-- project 2 -->
+      <h3>Kepler-Planet-Explorer</h3>
+      <p>Built the Kepler Exoplanet Discovery API, a Node.js-based backend that processes NASA’s Kepler telescope datasets to
+      identify potentially habitable exoplanets. The system parses and stores large CSV files in MongoDB, offers RESTful
+      endpoints for planet data analysis, and is deployed on AWS for scalable and reliable performance.</p>
+      <a href="https://github.com/DevSen101/Kepler-Planet-Explorer" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+     </article>
+
+     <article class="project"> <!-- project 3 -->
+      <h3>Multi-Player Pong</h3>
+      <p>Created a real-time Multiplayer Pong game using WebSockets to enable smooth, low-latency gameplay between online
+      players. Includes matchmaking, leaderboards, paddle and ball physics, and a responsive UI optimized for all devices —
+      fully deployed online for instant browser-based play.</p>
+      <a href="https://github.com/DevSen101/Multi-Player-Pong-Game" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+     </article>
+    </div>
+   </section>
+
+   <section id="skills"> <!-- skills section -->
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+     <span class="skill">JavaScript</span>
+     <span class="skill">Node.js</span>
+     <span class="skill">React</span>
+     <span class="skill">HTML & CSS</span>
+     <span class="skill">MongoDB</span>
+     <span class="skill">MySQL</span>
+     <span class="skill">AWS</span>
+     <span class="skill">Docker</span>
+    </div>
+   </section>
+
+   <section id="experience"> <!-- experience section -->
+    <h2 class="section-title">Experience</h2>
+    <div class="grid">
+     <div class="exp-item">
+      <div style="font-weight:700">Backend Developer — Zint Institute</div>
+      <div class="exp-meta">Nov 2025 — Present · Onsite</div>
+      <div>Worked on API design, authentication, and performance improvements for customer-facing services.</div>
+     </div>
+
+     <div class="exp-item">
+      <div style="font-weight:700">Full Stack Intern — Miracle IT</div>
+      <div class="exp-meta">May 2025 — May 2025 · Gwalior</div>
+      <div>Built internal tools and contributed to frontend UI and backend services.</div>
+    </div>
+    <div class="exp-item">
+      <div style="font-weight:700">Full Stack Intern — Quick IT Solutions</div>
+      <div class="exp-meta">Apr 2025 — Apr 2025 · Gwalior</div>
+      <div>Developed and contributed backend services and client's need.</div>
+    </div>
+    </div>
+   </section>
+
+   <section id="contact"> <!-- contact section -->
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-card">
+     <div class="contact-row"> <!-- contact row -->
+      <div style="flex:1">Email</div>
+      <div style="opacity:0.9">devksen.personal@gmail.com</div>
+     </div>
+
+     <div class="contact-row"> <!-- contact row -->
+      <div style="flex:1">Phone</div>
+      <div style="opacity:0.9">+91 8819982323</div>
+     </div>
+
+     <div class="contact-row"> <!-- contact row -->
+      <div style="flex:1">Location</div>
+      <div style="opacity:0.9">Gwalior, India</div>
+     </div>
+
+     <div style="margin-top:6px; font-size:13px; color:#475569">Or find me on <a href="https://github.com/DevSen101"
+       target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://linkedin.com/in/dks2898pro" target="_blank"
+       rel="noopener noreferrer">LinkedIn</a></div>
+    </div>
+   </section>
+  </main>
+
+  <footer> <!-- footer -->
+   © <span id="year"></span> All Rights Reserved
+  </footer>
+ </div>
+
+<script>
+  // Auto year update
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ===== Typing Animation =====
+  const textElement = document.querySelector('.hero h1 span');
+  const words = ["Web Developer", "API Engineer", "Backend Developer", "DevOps Engineer"];
+  let wordIndex = 0;
+  let charIndex = 0;
+  let currentWord = "";
+  let deleting = false;
+
+  function typeEffect() {
+    if (wordIndex >= words.length) wordIndex = 0;
+    currentWord = words[wordIndex];
+
+    if (!deleting && charIndex < currentWord.length) {
+      textElement.textContent = currentWord.substring(0, ++charIndex);
+    } else if (deleting && charIndex > 0) {
+      textElement.textContent = currentWord.substring(0, --charIndex);
+    }
+
+    if (charIndex === currentWord.length) {
+      deleting = true;
+      setTimeout(typeEffect, 1300);
+      return;
+    } else if (deleting && charIndex === 0) {
+      deleting = false;
+      wordIndex++;
+    }
+    setTimeout(typeEffect, deleting ? 60 : 120);
+  }
+  typeEffect();
+
+  // ===== Dark / Light Mode Toggle =====
+  const toggleBtn = document.createElement("button");
+  toggleBtn.textContent = "🌙";
+  toggleBtn.setAttribute("id", "themeToggle");
+  toggleBtn.style.position = "fixed";
+  toggleBtn.style.top = "16px";
+  toggleBtn.style.right = "16px";
+  toggleBtn.style.background = "none";
+  toggleBtn.style.border = "none";
+  toggleBtn.style.cursor = "pointer";
+  toggleBtn.style.fontSize = "20px";
+  toggleBtn.style.zIndex = "1000";
+  document.body.appendChild(toggleBtn);
+
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") document.body.classList.add("dark");
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    const isDark = document.body.classList.contains("dark");
+    toggleBtn.textContent = isDark ? "☀️" : "🌙";
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  });
+
+  // ===== Smooth Scroll for Navigation =====
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
+
+  // ===== Enhanced Scroll Reveal Animation =====
+  const revealElements = document.querySelectorAll('section, .project, .exp-item');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = 'translateY(0)';
+        entry.target.style.transition = 'all 0.8s ease-out';
+      }
+    });
+  }, { threshold: 0.15 });
+
+  revealElements.forEach(el => {
+    el.style.opacity = 0;
+    el.style.transform = 'translateY(40px)';
+    observer.observe(el);
+  });
+</script>
+
+
+</body>
+
+</html>
